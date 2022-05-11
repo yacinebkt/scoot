@@ -14,7 +14,7 @@ const About: React.FC= () => {
 
    
     return (
-      <section className=' h-screen w-full py-4 px-4 md:px-24 '>
+      <section className=' min-h-screen w-full py-4 px-4 md:px-24 '>
        
        <div className='flex md:flex-row flex-col gap-5 pt-20 items-center'>
              <div className='relative flex-1 justify-center items-center'>
@@ -30,12 +30,12 @@ const About: React.FC= () => {
               </p>
               
               <div>
-                <p className=" text-justify" > <PuzzleIcon className="h-5 xl:inline cursor-pointer mx-2 text-primary" />
+                <p className=" text-justify flex" > <PuzzleIcon className="h-5 xl:inline cursor-pointer mx-2 text-primary" />
                  Stay informed of collaboration opportunities and calls for projects.</p>
-                <p className="my-2 text-justify" > <PuzzleIcon className="h-5 xl:inline cursor-pointer mx-2 text-primary" />
+                <p className="my-2 text-justify flex" > <PuzzleIcon className="h-5 xl:inline cursor-pointer mx-2 text-primary" />
                 Participate in challenges launched by companies around different themes.</p>
 
-                <p className=" text-justify" >  <PuzzleIcon className="h-5 xl:inline cursor-pointer mx-2 text-primary" />
+                <p className=" text-justify flex" >  <PuzzleIcon className="h-5 xl:inline cursor-pointer mx-2 text-primary" />
                 Create, design, shape the future with the most innovative companies.</p>
               </div>
 
@@ -46,7 +46,7 @@ const About: React.FC= () => {
            
           </div>
 
-          <div className='flex flex-row-reverse gap-2 md:gap-4 flex-wrap'>
+          <div className='flex flex-row-reverse gap-2 md:gap-4 flex-wrap my-4'>
             <ButtonFill title="CREATE AN ACCOUNT" />
              {/* <ButtonOutLine title='Launch your challenge' />  */}
           </div>

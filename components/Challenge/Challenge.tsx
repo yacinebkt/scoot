@@ -47,6 +47,7 @@ const Challenge: React.FC<Props> = ({id, title, desc, date, link, img}) => (
               </div>
         </div>
 
+
     </div>
     
 )
