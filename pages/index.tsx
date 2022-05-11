@@ -21,7 +21,7 @@ const Home: NextPage = () => {
    </Head>
    
 
-      <div className='flex justify-center'>
+      <div className='flex justify-center w-full'>
         <div className='max-w-[1800px] w-full'>
         <Header />
         <About />   
