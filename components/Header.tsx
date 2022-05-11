@@ -27,7 +27,7 @@ const Header: React.FC= () => {
             </div>
           </div>
 
-          <div className='flex gap-2 md:gap-4 flex-wrap'>
+          <div className='flex gap-2 flex-col md:flex-row items-center md:gap-4 flex-wrap '>
             <ButtonFill title="See the list of challenges" />
             <ButtonOutLine title='Launch your challenge' />
           </div>

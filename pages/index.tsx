@@ -6,6 +6,7 @@ import Challenges from '../components/Challenges'
 import Header from '../components/Header'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
+import Testimonials from '../components/Testimonials'
 
 const Home: NextPage = () => {
   return (
@@ -25,6 +26,7 @@ const Home: NextPage = () => {
         <Header />
         <About />   
         <Challenges />
+        <Testimonials />
         <Contact />
         <Footer />
 
