@@ -22,7 +22,7 @@ const Home: NextPage = () => {
    
 
       <div className='flex justify-center'>
-        <div className='max-w-[1800px]'>
+        <div className='max-w-[1800px] w-full'>
         <Header />
         <About />   
         <Challenges />
