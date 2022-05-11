@@ -1,17 +1,34 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
-import Nav from '../components/Navbar/Nav'
+import About from '../components/About'
+import Challenges from '../components/Challenges'
+
+import Header from '../components/Header'
+import Contact from '../components/Contact'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex font-Poppins">
+    <div className=" font-Poppins bg-Hero bg-auto md:bg-cover bg-top ">
       <Head>
         <title>Scoot agency</title>
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+        
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.3.2/build/styles/default.min.css"></link>
 
-      <Nav />  
+
+   </Head>
+   
+
+      <div className='flex justify-center'>
+        <div className='max-w-[1800px]'>
+        <Header />
+        <About />   
+        <Challenges />
+        <Contact />
+
+        </div>
+      </div>
+      
     </div>
   )
 }
